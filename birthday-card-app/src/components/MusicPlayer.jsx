@@ -12,7 +12,7 @@ function MusicPlayer() {
   return (
     <div className="mt-6">
       <audio ref={audioRef} controls loop>
-        <source src="/music/happy-birthday.mp3" type="audio/mpeg" />
+        <source src="/music/birthday-song.m4a" type="audio/mpeg" />
         Your browser does not support the audio tag.
       </audio>
     </div>
