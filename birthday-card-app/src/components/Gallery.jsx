@@ -10,14 +10,9 @@ function Gallery() {
   ]; // put your sister’s pics in public/images
 
   return (
-    <div className="mt-8 flex gap-4 justify-center flex-wrap">
+    <div className="gallery">
       {images.map((src, idx) => (
-        <img
-          key={idx}
-          src={src}
-          alt={`Memory ${idx + 1}`}
-          className="w-32 h-32 object-cover rounded-lg shadow-md"
-        />
+        <img key={idx} src={src} alt={`Memory ${idx + 1}`} />
       ))}
     </div>
   );
