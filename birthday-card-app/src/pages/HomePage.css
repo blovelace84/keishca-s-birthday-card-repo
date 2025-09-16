@@ -1,0 +1,27 @@
+.homepage {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.homepage h1 {
+  font-size: 2.5rem;
+  color: #e91e63; /* pink/purple text */
+  margin-bottom: 2rem;
+}
+
+.homepage button {
+  background-color: #9c27b0; /* purple */
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.homepage button:hover {
+  background-color: #7b1fa2; /* darker purple */
+  transform: scale(1.05);    /* slightly bigger on hover */
+}
