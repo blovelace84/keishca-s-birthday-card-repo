@@ -1,4 +1,5 @@
 import React from "react";
+import "./Card.css";
 
 function Card() {
   return (
@@ -8,6 +9,7 @@ function Card() {
         Wishing you a day filled with love, laughter, and cake! 💖
       </p>
       <p className="mt-6 text-xl">Love, Your Sister ❤️</p>
+      <p>Brittani</p>
     </div>
   );
 }
