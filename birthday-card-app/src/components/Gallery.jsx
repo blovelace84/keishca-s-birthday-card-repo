@@ -7,6 +7,8 @@ function Gallery() {
     "/images/key.jpg",
     "/images/key-kicking-ass.jpg",
     "/images/key-mardi-gras.jpg",
+    "/images/key-as-a-baby.jpg",
+    "/images/key-and-derrick.jpg",
   ]; // put your sister’s pics in public/images
 
   return (
