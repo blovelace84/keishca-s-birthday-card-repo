@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import "./MusicPlayer.css";
 
 function MusicPlayer() {
   const audioRef = useRef(null);
@@ -10,7 +11,7 @@ function MusicPlayer() {
   }, []);
 
   return (
-    <div className="mt-6">
+    <div className="music-player">
       <audio ref={audioRef} controls loop>
         <source src="/music/birthday-song.m4a" type="audio/mpeg" />
         Your browser does not support the audio tag.

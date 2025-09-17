@@ -1,0 +1,20 @@
+.music-player {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.music-player audio {
+  width: 300px;               /* wider player */
+  height: 40px;                /* taller for visibility */
+  border-radius: 12px;
+  background-color: #f3e5f5;  /* light purple background */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  outline: none;
+}
+
+/* Optional: hide default controls and create custom button later */
+
+.music-player audio::-webkit-media-controls-panel {
+  background-color: #f3e5f5;  /* match background */
+  border-radius: 12px;
+}
