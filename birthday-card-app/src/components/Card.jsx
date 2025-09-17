@@ -6,7 +6,7 @@ function Card() {
     <div className="card">
       <h2>Happy Birthday! 🎂</h2>
       <p>Wishing you a day filled with love, laughter, and cake! 💖</p>
-      <p className="mt-6 text-xl">Love, Your Sister ❤️</p>
+      <p>Love, Your Sister ❤️</p>
       <p>Brittani</p>
     </div>
   );
