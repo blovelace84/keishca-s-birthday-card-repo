@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import "./MusicPlayer.css";
 
-function MusicPlayer() {
+const MusicPlayer = () => {
   const audioRef = useRef(null);
 
   useEffect(() => {
@@ -18,6 +18,6 @@ function MusicPlayer() {
       </audio>
     </div>
   );
-}
+};
 
 export default MusicPlayer;

@@ -3,16 +3,16 @@ import HomePage from "./pages/HomePage";
 import BirthdayCardPage from "./pages/BirthdayCardPage";
 
 function App() {
-  const [opened, setOpened] = useState(false);
+  const [showCard, setShowCard] = useState(false);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-pink-200">
-      {!opened ? (
-        <HomePage onOpen={() => setOpened(true)} />
+    <>
+      {!showCard ? (
+        <HomePage onOpen={() => setShowCard(true)} />
       ) : (
-        <BirthdayCardPage />
+        <BirthdayCardPage onClose={() => setShowCard(false)} />
       )}
-    </div>
+    </>
   );
 }
 
